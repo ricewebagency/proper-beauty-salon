@@ -1469,6 +1469,11 @@ html.js [data-reveal-header].is-visible {
   background-color: rgb(200 148 92 / 0.7);
 }
 
+.bg-\[\#f5ebe0\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(245 235 224 / var(--tw-bg-opacity, 1));
+}
+
 .bg-\[\#f8dec5\] {
   --tw-bg-opacity: 1;
   background-color: rgb(248 222 197 / var(--tw-bg-opacity, 1));
@@ -1822,12 +1827,16 @@ html.js [data-reveal-header].is-visible {
   -moz-osx-font-smoothing: grayscale;
 }
 
-.opacity-15 {
-  opacity: 0.15;
+.opacity-30 {
+  opacity: 0.3;
 }
 
 .opacity-90 {
   opacity: 0.9;
+}
+
+.opacity-\[35\%\] {
+  opacity: 35%;
 }
 
 .shadow {
@@ -2224,8 +2233,8 @@ html.js [data-reveal-header].is-visible {
     line-height: 1;
   }
 
-  .md\:opacity-\[9\%\] {
-    opacity: 9%;
+  .md\:opacity-\[20\%\] {
+    opacity: 20%;
   }
 }
 

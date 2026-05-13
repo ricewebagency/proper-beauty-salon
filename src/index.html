@@ -161,9 +161,6 @@
         <ul class="flex flex-wrap items-center gap-x-6 gap-y-2 md:justify-end text-sm font-semibold text-[#7a6458]">
           <li><a class="transition hover:text-[#2e1f1a]" href="./afspraak.html">Afspraak maken</a></li>
           <li><a class="transition hover:text-[#2e1f1a]" href="#services">Behandelingen</a></li>
-          <li><a class="transition hover:text-[#2e1f1a]" href="#gallery">Galerij</a></li>
-          <li><a class="transition hover:text-[#2e1f1a]" href="#pricing">Prijzen</a></li>
-          <li><a class="transition hover:text-[#2e1f1a]" href="#reviews">Reviews</a></li>
           <li class="pb-submenu">
             <button type="button" class="pb-submenu-trigger transition hover:text-[#2e1f1a]" aria-haspopup="true">
               Informatie
@@ -214,10 +211,13 @@
 
   <main>
     <section data-reveal-zone="hero" class="relative overflow-hidden pt-8 md:pt-14 bg-[color:#f5efe8c2]">
-      <div class="absolute inset-x-0 top-0 md:inset-0 md:h-auto opacity-15 md:opacity-[9%]">
-        <img src="https://images.unsplash.com/photo-1607779097040-26e80aa78e66?auto=format&fit=crop&w=1800&q=80" alt=""
+      <div class="absolute inset-0 opacity-[35%] md:opacity-[20%]">
+        <img src="./assets/images/hero-1.jpg" alt=""
           class="h-full w-full object-cover" />
       </div>
+      
+      <!-- Light beige overlay -->
+      <div class="absolute inset-0 bg-[#f5ebe0] opacity-30 pointer-events-none"></div>
 
       <div class="relative mx-auto grid w-[92vw] max-w-6xl gap-10">
         <div class="flex flex-col gap-8 mb-16 sm:mb-24 lg:mb-40">
@@ -278,7 +278,7 @@
           <div class="pb-flip-frame w-full rounded-[24px]">
             <img src="./assets/images/discover-2.jpg" alt="Interieur van Proper Beauty Salon" width="550" height="360"
               data-flip-gallery data-flip-interval="6"
-              data-flip-images="./assets/images/discover-1.jpg,./assets/images/discover-2.jpg,./assets/images/discover-3.jpg"
+              data-flip-images="./assets/images/discover-1.jpg,./assets/images/discover-2.jpg,./assets/images/discover-3.jpg,./assets/images/discover-4.jpg"
               class="pb-flip-image h-full w-full rounded-[24px] object-cover shadow-[0_20px_45px_rgba(46,31,26,0.18)]" />
           </div>
         </div>
