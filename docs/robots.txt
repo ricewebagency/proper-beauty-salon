@@ -1,4 +1,9 @@
-﻿User-agent: *
+﻿# Proper Beauty Salon - Robots.txt
+User-agent: *
 Allow: /
 
+# Disallow access to specific directories if needed
+Disallow: /assets/files/
+
+# Sitemap location
 Sitemap: https://www.properbeautysalon.com/sitemap.xml
