@@ -1,18 +1,8 @@
-@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&display=swap");
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @layer base {
-  @font-face {
-    font-family: "PB Primary";
-    src: url("../assets/fonts/primary.ttf") format("truetype");
-    font-weight: 400;
-    font-style: normal;
-    font-display: swap;
-  }
-
   :root {
     --pb-anim-ease-standard: cubic-bezier(0.4, 0, 0.2, 1);
     --pb-anim-ease-decelerate: cubic-bezier(0, 0, 0.2, 1);
