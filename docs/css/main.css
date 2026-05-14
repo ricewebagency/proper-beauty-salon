@@ -1792,9 +1792,9 @@ html.js [data-reveal-header].is-visible {
   color: rgb(122 100 88 / var(--tw-text-opacity, 1));
 }
 
-.text-\[\#bba0f9\] {
+.text-\[\#ad876c\] {
   --tw-text-opacity: 1;
-  color: rgb(187 160 249 / var(--tw-text-opacity, 1));
+  color: rgb(173 135 108 / var(--tw-text-opacity, 1));
 }
 
 .text-accent {
@@ -1813,11 +1813,6 @@ html.js [data-reveal-header].is-visible {
 
 .text-white\/90 {
   color: rgb(255 255 255 / 0.9);
-}
-
-.text-\[\#ad876c\] {
-  --tw-text-opacity: 1;
-  color: rgb(173 135 108 / var(--tw-text-opacity, 1));
 }
 
 .underline {
