@@ -71,7 +71,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   const offerImageWraps = Array.from(document.querySelectorAll('.pb-offer-image-wrap'));
   if (!reduceMotion && offerImageWraps.length > 0) {
-    const shimmerIntervalMs = 6000;
+    const shimmerIntervalMs = 4000;
 
     offerImageWraps.forEach((offerImageWrap) => {
       const shimmerTriggerTarget = offerImageWrap.closest('.pb-offer-glow') || offerImageWrap;
