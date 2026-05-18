@@ -1797,6 +1797,11 @@ html.js [data-reveal-header].is-visible {
   color: rgb(173 135 108 / var(--tw-text-opacity, 1));
 }
 
+.text-\[\#b39f94\] {
+  --tw-text-opacity: 1;
+  color: rgb(179 159 148 / var(--tw-text-opacity, 1));
+}
+
 .text-accent {
   --tw-text-opacity: 1;
   color: rgb(0 255 163 / var(--tw-text-opacity, 1));
